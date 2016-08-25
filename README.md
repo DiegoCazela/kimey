@@ -1,2 +1,2 @@
 # kimey
-Site da Kimey
+Site da Kimey.
