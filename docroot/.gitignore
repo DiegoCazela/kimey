@@ -1,0 +1,20 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore sites.php
+sites/sites.php
+
+# Ignore files from composer
+composer.lock
+vendor
+
+# Ignore config files
+config/database.config.php
+config/server.config.php
+
+#Ignore backup files
+backup
