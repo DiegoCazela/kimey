@@ -1,0 +1,17 @@
+.search .panel-panel.search-left{
+  float: left;
+  width: 25%;
+}
+.search .panel-panel.search-right{
+  float: right;
+  width: 70%;
+}
+.search .first-line , .search .second-line{
+  width: 100%;
+  overflow: hidden;
+}
+.search .panel-panel.search-3-first , .search .panel-panel.search-3-second , .search .panel-panel.search-3-third{
+  float: left;
+  width: 30%;
+  margin-left:3%;
+}

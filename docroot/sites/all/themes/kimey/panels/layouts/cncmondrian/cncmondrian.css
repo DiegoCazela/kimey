@@ -1,0 +1,42 @@
+.cnc_mondrian .panel-panel .panel-pane {
+  margin-bottom: 25px;
+}
+
+.cnc_mondrian .panel-panel.cnc_mondrian-left{
+  float: left;
+  width: 62%;
+}
+
+.cnc_mondrian .panel-panel.cnc_mondrian-right{
+  float: right;
+  width: 33%;
+}
+
+.cnc_mondrian .second-line .panel-panel .panel-pane {
+  padding-bottom: 50px;
+}
+
+.cnc_mondrian .first-line ,
+.cnc_mondrian .second-line {
+  overflow: hidden;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.cnc_mondrian .panel-panel.cnc_mondrian-3-first ,
+.cnc_mondrian .panel-panel.cnc_mondrian-3-second ,
+.cnc_mondrian .panel-panel.cnc_mondrian-3-third{
+  float: left;
+  margin-left:3%;
+  min-height: 1px;
+  width: 30%;
+}
+
+.cnc_mondrian .panel-panel.cnc_mondrian-3-first {
+  margin-left:0;
+}
+
+/*Necessário para o Panel region 100%. Ver full-panel-region.js*/
+.l-main.wrapper, .l-main {
+  overflow: visible !important;
+}

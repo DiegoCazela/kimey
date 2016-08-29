@@ -1,0 +1,67 @@
+.cnc_multiregion .panel-panel .panel-pane {
+  margin-bottom: 25px;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-left{
+  float: left;
+  width: 62%;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-right{
+  float: right;
+  width: 33%;
+}
+
+.cnc_multiregion .second-line .panel-panel .panel-pane {
+  padding-bottom: 50px;
+}
+
+.cnc_multiregion .first-line ,
+.cnc_multiregion .second-line {
+  overflow: hidden;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-sub-content,
+.cnc_multiregion .panel-panel.cnc_multiregion-footer-full {
+  float: left;
+  width: 100%;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-secondary-first,
+.cnc_multiregion .panel-panel.cnc_multiregion-secondary-second,
+.cnc_multiregion .panel-panel.cnc_multiregion-tertiary-first,
+.cnc_multiregion .panel-panel.cnc_multiregion-tertiary-second,
+.cnc_multiregion .panel-panel.cnc_multiregion-tertiary-third {
+  float: left;
+  margin-left:3%;
+  min-height: 1px;
+  width: 30%;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-secondary-first,
+.cnc_multiregion .panel-panel.cnc_multiregion-secondary-second {
+  width: 47%;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-secondary-first,
+.cnc_multiregion .panel-panel.cnc_multiregion-tertiary-first {
+  margin-left:0;
+}
+
+.cnc_multiregion .panel-panel.cnc_multiregion-tertiary {
+  margin-top: 30px;
+  float: left;
+  min-height: 1px;
+  width: 63%;
+}
+
+/*Necessário para o Panel region 100%. Ver full-panel-region.js*/
+.l-main.wrapper, .l-main, .second-line {
+  overflow: visible !important;
+}
+
+.first-line--second {
+  width: 65%;
+}
