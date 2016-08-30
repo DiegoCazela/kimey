@@ -1776,8 +1776,6 @@ function theme_link($variables) {
  */
 function theme_links($variables) {
   $links = $variables['links'];
-  kpr($links);
-  //die;
   $attributes = $variables['attributes'];
   $heading = $variables['heading'];
   global $language_url;

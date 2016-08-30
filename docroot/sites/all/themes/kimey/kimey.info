@@ -11,8 +11,8 @@ stylesheets[all][] = css/media.css
 stylesheets[all][] = css/colors.css
 stylesheets[all][] = stylesheets/application.css
 scripts[] = js/custom.js
-scripts[] = color/preview.js
-scripts[] = color/preview.css
+;scripts[] = color/preview.js
+;scripts[] = color/preview.css
 
 regions[search]      	 = Search
 regions[user_menu]  	 = User menu
